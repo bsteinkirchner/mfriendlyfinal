@@ -1,0 +1,8 @@
+.d-block {
+    width: 50%;
+    align-items:flex-start
+  }
+  .carousel-inner{
+    width:50%;
+    max-height: 400px !important;
+  }
