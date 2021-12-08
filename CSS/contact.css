@@ -1,0 +1,48 @@
+/* nav css */
+.navbar{
+    color:black !important;
+    background: #FFDFBE !important;
+}
+.nav-link:hover{
+    background-color: #FFB1B0 !important;
+    color:black
+}
+.button{
+    background-color: white !important;
+}
+.button:hover{
+    background-color:#FFB1B0 !important;
+}
+/* Contact box */
+body{
+    background-image: url("../Images/otherrainbow.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    font-family: "a abstract groovy", 'Times New Roman', Times, serif;
+}
+/* Icon box */
+li a:visited{
+    color: black
+}
+li a{
+    color:black
+}
+li a:hover{
+    color:#CBC3E3
+}
+.btn{
+    background-color:white;
+    border-style: no-border
+}
+.btn:hover{
+    background-color:#CBC3E3
+}
+/* Footer */
+.footer{
+    background-color: #A9D1F7;
+    text-align:center;
+    color:white;
+}
+.footer-copyright{
+    background-color: #CBC3E3
+}
