@@ -1,33 +1,41 @@
 /* nav css */
 .navbar{
   color:black !important;
-  background: #FFFFBF !important;
+  background: #FFDFBE !important;
 }
 .nav-link:hover{
   background-color: #FFB1B0 !important;
+  color:black
+}
+.button{
+  background-color: white !important;
+}
+.button:hover{
+  background-color:#FFB1B0 !important;
+}
+.card button{
+ background-color:green
 }
 /* carousel css */
 .carouselslide{
-  background-color: #FFDFBE;
+  background-color: #FFFFBF !important;
 }
-.d-block {
-    width: 50%;
-    align-items:flex-start;
-  }
 .carousel-inner{
     width:50%;
     max-height: 400px !important;
     margin:auto;
-  }
+ } 
+/* jumbotron */
 .btn{
-    background-color: white
+  background-color: white
   }
 .btn:hover{
   background-color: #CBC3E3
 }
-  .jumbotron{
+.jumbotron{
   background-color:#BFF0A7
 }
+/* Footer */
 .footer{
   background-color: #A9D1F7;
   text-align:center;
@@ -35,4 +43,10 @@
 }
 .footer-copyright{
   background-color: #CBC3E3
+}
+body{
+  background-image:url("../Images/otherrainbow.png");
+  background-repeat:no-repeat;
+  background-position:bottom;
+  font-family: "a abstract groovy", 'Times New Roman', Times, serif;
 }
