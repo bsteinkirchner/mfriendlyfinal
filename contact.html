@@ -28,7 +28,7 @@
   </head>
   <body>
 <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <a class="navbar-brand" href="index.html">Make it Rain Bows</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,43 +58,39 @@
           </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </nav>
 <!-- Contact box -->
-<div class="cboxbg">
+<div class="cboxbg p-3">
   <section class="contactbox mb-4">
     <h2 class="h1-responsive font-weight-bold bg-lt text-center my-4">Contact us</h2>
-    <p class="text-center w-responsive mx-auto mb-5">Do you have questions? Fill out the form for general questions, questions about orders, customs items, or anything else that may not be listed in the FAQs.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have questions?</br> Fill out the form for general questions,<br>questions about orders,<br> customs items, or anything else <br>that may not be listed in the FAQs.</p>
   <div class="row">
     <div class="col-md-9 mb-md-0 mb-5">
       <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3">
             <div class="md-form mb-0">
                 <input type="text" id="name" name="name" class="form-control">
                 <label for="name" class="">Your name</label>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="md-form mb-0">
                 <input type="text" id="email" name="email" class="form-control">
                 <label for="email" class="">Your email</label>
             </div>
           </div>
         </div>
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
               <div class="md-form mb-0">
                   <input type="text" id="subject" name="subject" class="form-control">
                   <label for="subject" class="">Subject</label>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
               <div class="md-form">
                   <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                   <label for="message">Your message</label>
@@ -102,13 +98,13 @@
             </div>
           </div>
       </form>
-      <div class="text-center text-md-left">
+      <div class="text-center text-md-left d-flex justify-content-center">
         <a class="btn" onclick="document.getElementById('contact-form').submit();">Send</a>
       </div>
         <div class="status"></div>
       </div>
       <div class="col-md-3 text-center">
-     <ul class="list-unstyled mb-0">
+     <ul class="list-unstyled">
         <li><a href="https://www.google.com/maps/place/Coffee+House+on+Cherry+Street/@36.140472,-95.973969,17z/data=!3m2!4b1!5s0x87b6ec9743aa431f:0xa456bd93101ce460!4m5!3m4!1s0x87b6ec97422b33c1:0x8a44b6e1ecdee326!8m2!3d36.1404789!4d-95.9718345"><i class="fas fa-map-pin"></i></a>
             <p>Tulsa, Oklahoma 74120</p>
         </li>
@@ -152,7 +148,7 @@
   </div>
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="https://mdbootstrap.com/" class="text-decoration-none text-white"> MDBootstrap.com</a>
   </div>
 </footer>
 </body>

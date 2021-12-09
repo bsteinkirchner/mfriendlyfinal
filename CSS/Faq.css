@@ -2,47 +2,65 @@
 .navbar{
     color:black !important;
     background: #FFDFBE !important;
-}
-.nav-link:hover{
+  }
+  .nav-link:hover{
     background-color: #FFB1B0 !important;
     color:black
-}
-.button{
+  }
+  .button{
     background-color: white !important;
-}
-.button:hover{
+  }
+  .button:hover{
     background-color:#FFB1B0 !important;
-}
-/* Contact box */
-body{
-    background-image: url("../Images/otherrainbow.png");
-    background-repeat:no-repeat;
-    background-size: contain;
-    font-family: "a abstract groovy", 'Times New Roman', Times, serif;
-}
-/* Icon box */
-li a:visited{
-    color: black
-}
-li a{
-    color:black
-}
-li a:hover{
-    color:#CBC3E3
-}
-.btn{
-    background-color:white;
-    border-style: no-border
-}
-.btn:hover{
-    background-color:#CBC3E3
-}
-/* Footer */
-.footer{
+  }
+  .btn{
+    background-color: white
+    }
+  .btn:hover{
+    background-color: #CBC3E3
+  }
+  /* Footer */
+  .footer{
     background-color: #A9D1F7;
     text-align:center;
     color:white;
-}
-.footer-copyright{
+  }
+  .footer-copyright{
     background-color: #CBC3E3
+  }
+  /* accordion */
+.accordion-button1{
+    background-color:#FFB1B0;
 }
+.accordion-button2{
+    background-color:#FFDFBE;
+}
+.accordion-button3{
+    background-color:#FFFFBF
+}
+.accordion-button4{
+    background-color:#BFF0A7
+}
+.accordion-button5{
+    background-color:#A9D1F7;
+}
+.accordion-button6{
+    background-color:#CBC3E3
+}
+  /* body */
+  body{
+    font-family: "a abstract groovy", 'Times New Roman', Times, serif;
+    background-color:white;
+    padding-top:70px
+  }
+  .accordion{
+    background-image:url(../Images/otherrainbow.png);
+    background-position:center;
+    padding-top: 40px !important;
+    background-repeat:no-repeat;
+    width:100%
+  }
+  i:hover{
+    color:#CBC3E3
+  }
+  

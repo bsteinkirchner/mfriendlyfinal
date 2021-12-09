@@ -19,6 +19,7 @@ body{
     background-repeat:no-repeat;
     background-size: contain;
     font-family: "a abstract groovy", 'Times New Roman', Times, serif;
+    padding-top:70px
 }
 /* Icon box */
 li a:visited{
@@ -46,3 +47,6 @@ li a:hover{
 .footer-copyright{
     background-color: #CBC3E3
 }
+i:hover{
+    color:#CBC3E3
+  }

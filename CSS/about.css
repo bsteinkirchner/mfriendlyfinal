@@ -13,29 +13,15 @@
 .button:hover{
   background-color:#FFB1B0 !important;
 }
-/* Contact box */
-body{
-  background-image: url("../Images/otherrainbow.png");
-  background-repeat:no-repeat;
-  background-size: contain;
-  font-family: "a abstract groovy", 'Times New Roman', Times, serif;
+.card button{
+ background-color:green
 }
-/* Icon box */
-li a:visited{
-  color: black
-}
-li a{
-  color:black
-}
-li a:hover{
-  color:#CBC3E3
-}
+
 .btn{
-  background-color:white;
-  border-style: no-border
-}
+  background-color: white
+  }
 .btn:hover{
-  background-color:#CBC3E3
+  background-color: #CBC3E3
 }
 /* Footer */
 .footer{
@@ -45,4 +31,19 @@ li a:hover{
 }
 .footer-copyright{
   background-color: #CBC3E3
+}
+/* body */
+body{
+  font-family: "a abstract groovy", 'Times New Roman', Times, serif;
+  background-color:white;
+  padding-top:70px
+}
+.container-fluid{
+  background-image:url(../Images/otherrainbow.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  width:100%;
+}
+i:hover{
+  color:#CBC3E3
 }
