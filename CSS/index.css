@@ -14,17 +14,17 @@
   background-color:#FFB1B0 !important;
 }
 .card button{
- background-color:green
+ background-color:white
 }
 /* carousel css */
-.carouselslide{
-  background-color: #FFFFBF !important;
+#carouselExampleControls{
+  background-color:#FFFFBF!important;
 }
 .carousel-inner{
     width:50%;
-    max-height: 400px !important;
+    max-height: 500px !important;
     margin:auto;
- } 
+ }  
 /* jumbotron */
 .btn{
   background-color: white
